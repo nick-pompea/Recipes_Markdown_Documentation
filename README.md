@@ -6,6 +6,10 @@
 
 <details>
   <summary>Headings</summary>
+
+# H1
+## H2
+### H3
   
 ```
 # H1
@@ -19,6 +23,24 @@
 <details>
   <summary>Styling Text
 </summary>
+
+* Footnotes
+
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+
+
 
 
 * Bold
@@ -43,6 +65,7 @@
 ```
 
 *Emojis
+Emojis! :joy:
 ```
 Emojis! :joy:
 ```
@@ -57,6 +80,10 @@ Emojis! :joy:
 *   Bullet Point
 *   Note ( Can be "-" or "*")
 
+* Item
+* Item
+* Item
+
 ```
 * Item
 * Item
@@ -66,10 +93,28 @@ Emojis! :joy:
 
  * Numbered
 
+1. First item
+2. Second item
+3. Third item
+
 ```
 1. First item
 2. Second item
 3. Third item
+```
+
+
+*To Do List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+      
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
 ```
 
 
@@ -112,13 +157,7 @@ Emojis! :joy:
 ```
 
 
-*To Do List
 
-```
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-```
 
   </details>
 
@@ -132,7 +171,83 @@ Code example
 
 ```
 
+Syntax Highlighting
+
+
+>JSON
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+>Swift
+
+```swift
+func test() -> Int {
+return 1+1
+}
+```
+
+
+
+
+
+  </details>
+
+<details>
+  <summary>Table</summary>
+
+
+ * Example
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+* Code
+
+```
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
+
+---
+
+
+* Example
+  
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+* Code
+
+```
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+```
+
+
+
+
+
  </details>
 
 
 
+<details>
+  <summary>Reference</summary>
+  https://www.markdownguide.org/extended-syntax/#emoji
+
+ </details>
